@@ -1,16 +1,20 @@
 <template>
   <div id="app">
+    <router-view />
   </div>
 </template>
 
 <script>
-
 export default {
-}
-</script>
+  name: "App",
 
+  data: () => ({
+    //
+  }),
+};
+</script>
 <style>
 body {
-  background-color:#141414
+  background-color: #141414
 }
 </style>
